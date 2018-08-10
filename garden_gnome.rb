@@ -37,6 +37,10 @@ class GardenGnome
     @hat_color
   end
   
+  def hat_color=(new_hat_color)
+    @hat_color = new_hat_color
+  end
+  
   def gnaw
     return "Gnawing on a tree!!!"
   end
